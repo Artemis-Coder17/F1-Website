@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula 1 Fan Club</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Link for Icons on Navigation Bar-->>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="../script/script.js" defer></script>
+</head>
+<body>
+<div class="banner">
+    <video autoplay loop muted>
+        <source src="../images/F1_VID_3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+<nav class="navbar">
+    <a href="../index.html"><i class="fa-solid fa-house fa-lg"></i> Home</a>
+    <a href="schedule.html"><i class="fa-solid fa-calendar-days fa-lg"></i> Calendar</a>
+    <a href="teams.html"><i class="fa-solid fa-users fa-lg"></i> Teams</a>
+    <a href="drivers.html"><i class="fa-solid fa-flag-checkered fa-lg"></i> Drivers</a>
+    <!-- <a href="videos.html">F1 Raceflix</a>-->
+</nav>
+
+
+<section>
+    <h1>Race Schedule</h1>
+    <img src="../images/F1_2023_Calendar.jpg" alt="Image of the 2023 Race Schedule" class="center">
+    <div class="countdown-container">
+        <h3>Countdown to Next Race</h3>
+        <div id="countdown"></div>
+    </div>
+    
+    <h3>Upcoming Races</h3>
+    <div class="race-details">
+        <h3>2023 Mexican Formula 1 Grand Prix</h3>
+        <p><strong>Date:</strong> 29 October, 2023</p>
+        <p><strong>Track:</strong> The Autodromo Hermanos Rodriguez, Mexico City, Mexico</p>
+        <p><strong>Start Time:</strong> 20:00 (local time)</p>
+    </div>
+
+    <h3>Past Races</h3>
+    <table class="race-table">
+        <tr>
+            <th>Race Name</th>
+            <th>Date</th>
+            <th>Location</th>
+            <th>Winner</th>
+        </tr>
+        <tr>
+            <td>2023 Australian Grand Prix</td>
+            <td>March 20, 2023</td>
+            <td>Melbourne, Australia</td>
+            <td>Lewis Hamilton</td>
+        </tr>
+        <tr>
+            <td>2023 Bahrain Grand Prix</td>
+            <td>April 17, 2023</td>
+            <td>Sakhir, Bahrain</td>
+            <td>Max Verstappen</td>
+        </tr>
+        <tr>
+            <td>2023 Italian Grand Prix</td>
+            <td>September 3, 2023</td>
+            <td>Milan, Italy</td>
+            <td>Charles Leclerc</td>
+        </tr>
+    </table>
+</section>
+
+<footer>
+    <p>©2023 Created by Harshit Panchal</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<button id="scrollToTopBtn" onclick="scrollToTop()">Scroll to Top</button>
+
+</body>
+</html>
